@@ -73,7 +73,7 @@ export default async function handler(req, res) {
     // SEND EMAIL (CINEDOT DESIGN)
     // ---------------------------
     await resend.emails.send({
-      from: "Cinedot Contact <onboarding@resend.dev>",
+      from: "Cinedot Contact <no-reply@cinedot.in>",
       to: "maaz582ss@gmail.com",
       replyTo: email,
       subject: "📩 New Contact Form Submission — Cinedot",

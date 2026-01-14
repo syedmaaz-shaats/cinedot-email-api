@@ -74,7 +74,7 @@ export default async function handler(req, res) {
     // ---------------------------
     await resend.emails.send({
       from: "Cinedot Contact <onboarding@resend.dev>",
-      to: "info@cinedot.in",
+      to: "maaz582ss@gmail.com",
       replyTo: email,
       subject: "📩 New Contact Form Submission — Cinedot",
       html: `
